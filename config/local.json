@@ -8,9 +8,8 @@
     "queue": true
   },
   "api": {
-    "type": "official", // "browser", "official", "unofficial": the type of the chatgpt api to use
+    "type": "official",
     "browser": 
-      // Please refer to "https://github.com/transitive-bullshit/chatgpt-api/blob/v3/docs/classes/ChatGPTAPIBrowser.md#parameters"
       "email": "ACCOUNT_EMAIL",
       "password": "ACCOUNT_PASSWORD",
       "isGoogleLogin": false,
@@ -19,10 +18,10 @@
       "nopechaKey": "",
       "captchaToken": "",
       "userDataDir": "",
-      "timeoutMs": 120000 // set to 0 to disable
+      "timeoutMs": 120000
     },
     "official": {
-      // Please refer to "https://github.com/transitive-bullshit/chatgpt-api/blob/main/docs/classes/ChatGPTAPI.md#parameters"
+    
       "apiKey": "free",
       "apiBaseUrl": "https://ngoctuanai-gpt4api.hf.space/api/openai/chat/completions",
       "completionParams": {},
@@ -32,7 +31,7 @@
       "timeoutMs": 60000 // set to 0 to disable
     },
     "unofficial": {
-      // Please refer to "https://github.com/transitive-bullshit/chatgpt-api#usage---chatgptunofficialproxyapi"
+     
       "accessToken": "ACCESS_TOKEN",
       "apiReverseProxyUrl": "",
       "model": "",
