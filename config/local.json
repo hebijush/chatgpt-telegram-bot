@@ -1,15 +1,15 @@
 {
-  "debug": 1, // debug level: 0 - no debug, 1 - debug, 2 - verbose debug
+  "debug": 1,
   "bot": {
     "token": "6960223747:AAFQBjipreo4mH16wjcS8p6tcwM_mNZqAEs",
-    "groupIds": [], // allowed group ids, leave empty to allow all
-    "userIds": [], // allowed user ids, leave empty to allow all
+    "groupIds": [],
+    "userIds": [],
     "chatCmd": "/chat",
     "queue": true
   },
   "api": {
     "type": "official", // "browser", "official", "unofficial": the type of the chatgpt api to use
-    "browser": {
+    "browser": 
       // Please refer to "https://github.com/transitive-bullshit/chatgpt-api/blob/v3/docs/classes/ChatGPTAPIBrowser.md#parameters"
       "email": "ACCOUNT_EMAIL",
       "password": "ACCOUNT_PASSWORD",
